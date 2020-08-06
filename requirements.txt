@@ -1,0 +1,9 @@
+requests
+argparse
+termcolor
+secure-smtplib
+scrapy
+email-to
+scrapy-random-useragent
+scrapy-rotating-proxies
+
