@@ -143,7 +143,7 @@ def generate():
 		allowed_domains = ['%s']
 		start_urls = ['%s']
 		visited_pastes = []
-		btc_regex = r"\b[13][a-km-zA-HJ-NP-Z1-9]{25,34}\b"
+		btc_regex = r"[13][a-km-zA-HJ-NP-Z1-9]{25,34}"
 		misp_url = "%s"
 		misp_key = "%s"
 		domain_regex = "%s"
