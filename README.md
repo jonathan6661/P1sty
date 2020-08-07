@@ -74,7 +74,7 @@ $ python p1sty.py -n "pastebin_fr" -s "http://pastebin.fr/" -m "https://Misp_URL
 $ scrapy crawl pastebin_fr
 ~~~
 
-# P1sty spider to MISP
+# P1sty spiders to MISP
 Besides extracting raw paste data, p1sty spiders extract usernames, Bitcoin addresses, email addresses, cards numbers and add it to MISP event as attributes and enable their correlation.
 In this case, we will be able to correlate all of our findings to identify who is the criminal/malicious group behind data exposure.
 We all know that most criminals uses single bitcoin address, so when a criminal adds parts of card or credential dumps and then mentions his Bitcoin address, we can identify all usernames used by him in different paste websites, this will allows us to perform tracking and we may be able to identify him ;)
