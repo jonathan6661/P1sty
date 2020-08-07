@@ -267,7 +267,7 @@ def generate():
 				attributes.extend(cc_attributes)
 			if btc:
 				btc_attribute = {"type":"btc","category":"Financial fraud","distribution":"0","comment":"","value": btc[0]}
-				attributes = attributes.append(btc_attribute)
+				attributes.append(btc_attribute)
 			date = time.strftime("%Y-%m-%d")
 			data = '{"Event":{"date":"%s","threat_level_id":"1","info":"%s","published":false,"analysis":"0","distribution":"0","Attribute":%s}}'%(date,event_name,attributes)
 			data = data.replace("\'",'"').replace("\\t"," ")
