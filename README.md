@@ -87,6 +87,9 @@ We all know that most criminals uses single bitcoin address, so when a criminal 
 
 Of course not, this project was developed for an article about Fraud prevention :) 
 
+The article is available on [Medium](https://medium.com/@jonathan.benalii/p1sty-for-fraud-prevention-18f8e122586?source=friends_link&sk=fac669a6ec9fa8b0c04372191e4d5e19)
+
+
 In the following articles, i will extend P1sty to monitor dark web also i will develop intelligente crawlers.
 
 ## License
